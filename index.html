@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Arc Graph Visualization </title>
+    <script type="text/javascript" src="Script/script.js"> </script>
+    <script type="text/javascript" src="Libraries/d3.v4.min.js"> </script>
+    <script type="text/javascript" src="Libraries/d3-color.v1.min.js"></script>
+    <script type="text/javascript" src="Libraries/d3-interpolate.v1.min.js"></script>
+    <script type="text/javascript" src="Libraries/d3-scale-chromatic.v1.min.js"></script>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+
+    <input id="graphSize" type="text" name="number" value="2">
+    <button type="button" onclick= init()>Choose links</button>
+    <br><br>
+    <div id = "graphLinks"></div>
+    <br><br>
+    <div id = "button"></div>
+    <div id = "txt"><h5>Please click on the graph (after it appears) to see every step of the evolution of the algorithm untill you
+        get an alert saying you've reached stability
+    </h5></div>
+    <div id = "graphBlock"></div>
+
+
+</body>
+
+</html>
